@@ -1,0 +1,90 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        display: flex;
+        background-image: url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=1060&t=st=1678175582~exp=1678176182~hmac=05ac47c9d09d09581af8b0838f67adf7a1d4a0adaf77a3582592fe05a11b800e");
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 90vh;
+        gap: 100px;
+
+        .left,
+        .right {
+            display: flex;
+            // flex: 0;
+            flex-direction: column;
+            color: white;
+            justify-content: space-between;
+
+            img {
+                border: 2px solid purple;
+                width: 25em;
+                height: 29em;
+                border-radius: 30px;
+            }
+
+            h1 {
+                text-align: center;
+                color: black;
+            }
+            p{
+                // text-align: center;
+                color:black;
+            }
+            i{
+                color: red;
+            }
+
+            label {
+                font-size: 17px;
+                color: black
+            }
+
+            form {
+                padding: 40px 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                background-color: white;
+                width: 30em;
+                height: 38em;
+                border-radius: 1em;
+                // box-shadow: 1 1.188em 1.550em rgb(100, 156, 156);
+
+
+            }
+
+            input {
+                padding: 10px;
+                border: 1px solid rgb(216, 214, 214);
+                border-radius: 10px;
+            }
+
+            .btn{
+                border: none;
+                text-align: center;
+                button {
+                    border: none;
+                    padding: 9px 16px   ;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    // background-color: #1dbf73;
+                    background-color: rgba(9, 9, 208, 0.989);
+                    cursor: pointer;
+                    border-radius: 10px;
+        
+                    &:hover {
+                        // background-color: #1ab06a;
+                        background-color: rgba(8, 8, 154, 0.989);
+
+                    }
+                }
+            }
+        }
+    }
+}
