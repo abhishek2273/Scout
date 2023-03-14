@@ -3,7 +3,7 @@ import axios from "axios";
 const upload = async (file) => {
   const data = new FormData();
   data.append("file", file);
-  data.append("upload_preset", "fscout");
+  data.append("upload_preset", "scout");
 
   try {
     const res = await axios.post(
