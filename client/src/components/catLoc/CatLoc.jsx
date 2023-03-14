@@ -5,7 +5,7 @@ import "./CatLoc.scss";
 
 const CatLoc = ({item}) => {
     return (
-        <Link to="/gigs?cat=design">
+        <Link to="/location?loc=kharghar">
             <div className="CatLoc">
                 <img src={item.img} alt="" />
                 <span className="title">{item.title}</span>
